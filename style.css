@@ -1,106 +1,117 @@
 @import url("https://fonts.googleapis.com/css2?family=Besley&family=Roboto+Slab:wght@500&family=Tangerine:wght@700&display=swap");
-
 body {
-  background-image: linear-gradient(
-    to right,
-    #707070,
-    #92817a,
-    #8db596,
-    #bedbbb,
-    #e7e0c9
-  );
-  font-family: "Besley", serif;
+    background-image: linear-gradient( to right, #707070, #92817a, #8db596, #bedbbb, #e7e0c9);
+    font-family: "Besley", serif;
 }
+
 * {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
+
 h1,
 h3 {
-  text-align: center;
-  font-size: 7rem;
-  font-family: "Tangerine", cursive;
+    text-align: center;
+    font-size: 7rem;
+    font-family: "Tangerine", cursive;
 }
+
 h3 {
-  font-size: 4rem;
-  font-family: "Tangerine", cursive;
+    font-size: 4rem;
+    font-family: "Tangerine", cursive;
 }
+
 .container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
+
 a {
-  margin: 0 auto;
-  font-size: 4rem;
-  text-decoration: none;
+    margin: 0 auto;
+    font-size: 4rem;
+    text-decoration: none;
 }
+
 .isTriangle-container,
 .question-container,
 .hypotenuse-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 2rem;
 }
+
 label,
 #output,
 p {
-  font-size: 3rem;
+    font-size: 3rem;
 }
-.side-input {
-  width: 60%;
-  font-size: 5rem;
-}
-button {
-  width: 15rem;
-  cursor: pointer;
-  font-size: 3rem;
-  margin-top: 2rem;
-  background-color: wheat; /* Green */
-  border: none;
-  color: black;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 2rem;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.links {
-  margin: 0 auto;
-  border: 1px solid purple;
-  margin: 0.5rem auto;
-  width: 40%;
-  background-color: #f3f0d7;
-  text-align: center;
-}
-.angle-input {
-  width: 50%;
-  font-size: 3rem;
-}
-.footer-heading {
-  color: black;
-  font-size: 1.5rem;
-}
-i {
-  color: black;
 
-  margin: 0 0.5rem;
+.side-input {
+    width: 60%;
+    font-size: 5rem;
 }
+
+button {
+    width: 15rem;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-top: 2rem;
+    background-color: wheat;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.links {
+    margin: 0 auto;
+    border: 1px solid purple;
+    margin: 0.5rem auto;
+    width: 40%;
+    background-color: #f3f0d7;
+    text-align: center;
+}
+
+.angle-input {
+    width: 50%;
+    font-size: 3rem;
+}
+
+.footer-heading {
+    color: black;
+    font-size: 1.5rem;
+}
+
+i {
+    color: black;
+    margin: 0 0.5rem;
+}
+
 .socialmedia,
 .footer-heading {
-  font-size: 0.5rem;
-  text-align: center;
+    font-size: 0.5rem;
+    text-align: center;
 }
+
 .footer-heading {
-  font-size: 2rem;
+    font-size: 2rem;
+}
+
+#outputEl {
+    font-size: 30px;
 }
 
 @media screen and (max-width: 480px) {
-  * {
-    font-size: 35.5%;
-  }
-  body {
-    background: #9fd8b9;
-  }
+    * {
+        font-size: 35.5%;
+    }
+    body {
+        background: #9fd8b9;
+    }
 }
